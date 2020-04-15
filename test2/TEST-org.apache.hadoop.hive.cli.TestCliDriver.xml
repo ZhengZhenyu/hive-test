@@ -7,7 +7,7 @@
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="log4j.configurationFile" value="file:///home/jenkins/ptest-workdir/data/users/hivetests-jenkins/trunk-jenkins@192.168.1.221-0/itests/qtest/target/testconf/hive-log4j2.properties"/>
-    <property name="qfile" value="authorization_9.q,authorization_show_grant.q,ivyDownload.q"/>
+    <property name="qfile" value="ivyDownload.q"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="test.warehouse.dir" value="pfile:///home/jenkins/ptest-workdir/data/users/hivetests-jenkins/trunk-jenkins@192.168.1.221-0/itests/qtest/target/warehouse"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -91,7 +91,5 @@
     <property name="test.output.overwrite" value=""/>
     <property name="hive.root" value="/home/jenkins/ptest-workdir/data/users/hivetests-jenkins/trunk-jenkins@192.168.1.221-0/itests/qtest/../../"/>
   </properties>
-  <testcase name="testCliDriver[authorization_9]" classname="org.apache.hadoop.hive.cli.TestCliDriver" time="5.192"/>
-  <testcase name="testCliDriver[authorization_show_grant]" classname="org.apache.hadoop.hive.cli.TestCliDriver" time="1.805"/>
   <testcase name="testCliDriver[ivyDownload]" classname="org.apache.hadoop.hive.cli.TestCliDriver" time="10.966"/>
 </testsuite>
